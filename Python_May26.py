@@ -826,7 +826,6 @@ rf_score.mean()
 rf_score.std()
 
 # print results in a nice summary
-## didn't get this final code
 print('=== 10-Fold Cross-Validation Results ===')
 print("Logistic Regression: Mean = {:.3f}, SD = {:.3f}".format(lr_score.mean(), lr_score.std()))
 print("Decision Tree: Mean = {:.3f}, SD = {:.3f}".format(tree_score.mean(), tree_score.std()))
